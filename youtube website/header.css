@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+    border: 0px;
+}
+
+.search-bar{
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.menu-logo{
+    height: 56px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin-left: 15px;
+    width: 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.logo{
+    height: 55px;
+    width: 120px;
+    display: inline-block;
+}
+
+.logo-img{
+    padding-top: 16px;
+    height: 20px;
+    width: 90px;
+    object-fit: cover;
+}
+
+.search-mic{
+    height: 50px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.search{
+    height: 40px;
+    width: 700px;
+    margin-left: 32px;
+    margin-bottom: 2.5px;
+    margin-left: 100px;
+}
+
+.search-input{
+    height: 40px;
+    width: 580px;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    padding-left: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.mic{
+    height: 40px;
+    width: 60px;    
+}
+
+.hello-search{
+    height: 28px;
+    width: 50px;
+    background-color: rgb(252, 252, 252);
+    padding-top: 15px;
+    padding-left: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid black;
+} 
+
+.hello-mic{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 50%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif-img{
+    height: 40px;
+    width: 200px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create,.notification{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.photo1{
+    height: 40px;
+    width:40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fa-bars:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition-duration: 0.4s;
+    background-color: rgb(197, 196, 196);
+    cursor: pointer;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.search:hover{
+    border: 1.5px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 1.5px;
+}
+
+.hello-search:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(212, 211, 211);;
+}
+
+.hello-mic:hover,.create:hover,.notification:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(212, 211, 211);
+    border-radius: 50%;
+    border: 1.5px solid black;
+    cursor: pointer;
+
+} 
+
+.photo:hover{
+    border: 1.5px solid black;
+    cursor: pointer;
+}
